@@ -15,10 +15,10 @@ const CartProduct: FC<currentProductProps> = ({product, CurOnClick, remove, Tota
     const [ Counter,  setCounter] = useState(TotalCount);
 
     const TotalCountCounter = () => {
-        if(Counter <=0 ){
+        if(Counter <=1 ){
             return;
-        }else if(Counter >0){
-            setCounter(Counter+ TotalCount -1);
+        }else if(Counter >1){
+            setCounter(Counter - TotalCount -1);
             return Counter;
         }
     }

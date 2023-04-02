@@ -38,7 +38,7 @@ const Cart:FC = (product) => {
                 </div>
                 <div className='product__list__cart'>
                 {products && products.map(product =>
-                    <CartProducts remove={handleRemove} CurOnClick={() => {}} TotalCount={0}  key={product.barcode} product={product}/>
+                    <CartProducts remove={handleRemove} CurOnClick={() => {}} TotalCount={1}  key={product.barcode} product={product}/>
                 )}
                     <div className='cart__bottom'>
                         <YellowButton onClick={() => navigate('/order_complite')}>Оформить заказ</YellowButton>

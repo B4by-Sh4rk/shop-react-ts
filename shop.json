@@ -274,5 +274,19 @@
       "careType": "уход за телом, подарочные наборы, узод за лицом"
     }
   ],
-  "cartProducts": []
+  "cartProducts": [
+    {
+      "id": 1,
+      "url-img": "https://cs11.livemaster.ru/storage/topicavatar/600x450/eb/e8/c98dcc4aad43d125bd06ca4fc267d299bbdd6q.jpg?h=iLI0807eMxd2m9wGHOQNiA",
+      "name": "Крем для лица aloe",
+      "type-size": "мл",
+      "size": "100",
+      "barcode": "0",
+      "manufacturer": "aloe-creams",
+      "brand": "aloe",
+      "description": "увлажняющий крем для лица с алое",
+      "price": 2000,
+      "careType": "уход за лицом, ход за руками"
+    }
+  ]
 }

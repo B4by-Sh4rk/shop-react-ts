@@ -3,7 +3,6 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import { productAPI } from '../services/ProductService';
 import { IProduct } from '../models/IProduct';
-import YellowButton from './UI/button/YellowButton';
 
 const OrderComplite = () => {
     const {error, data: products, isLoading} = productAPI.useFetchCartQuery(0);
