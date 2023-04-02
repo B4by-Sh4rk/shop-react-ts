@@ -1,5 +1,7 @@
 React / Redux / Redux-toolkit / react-router-dom / SCSS / typescript
 
+для проверки:
+json-server --watch shop.json --port 3001
 
 ___________________________________________
 Задание. 
