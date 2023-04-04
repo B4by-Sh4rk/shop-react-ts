@@ -1,3 +1,6 @@
+https://b4by-sh4rk.github.io/shop-react-ts/
+___________________________________________
+
 React / Redux / Redux-toolkit / react-router-dom / SCSS / typescript
 
 для проверки:
