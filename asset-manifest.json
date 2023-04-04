@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/shop-react-ts/static/css/main.17777ace.css",
+    "main.js": "/shop-react-ts/static/js/main.281e9ad6.js",
+    "static/media/mainbg.png": "/shop-react-ts/static/media/mainbg.d35ec4eb3acbc68a4415.png",
+    "static/media/map.png": "/shop-react-ts/static/media/map.cc9193f93a81b2469246.png",
+    "static/media/1.png": "/shop-react-ts/static/media/1.832663d98de6de39ba7f.png",
+    "static/media/2.png": "/shop-react-ts/static/media/2.6f61edf38c1dbbb805bb.png",
+    "static/media/3.png": "/shop-react-ts/static/media/3.f32d80884ad7a2620709.png",
+    "static/media/4.png": "/shop-react-ts/static/media/4.879da9c2cea39abf41fb.png",
+    "static/media/5.png": "/shop-react-ts/static/media/5.723b899f2e341e3b11d0.png",
+    "static/media/3_2.png": "/shop-react-ts/static/media/3_2.7a127d49a4f26b33a091.png",
+    "static/media/6_2.png": "/shop-react-ts/static/media/6_2.8cb91f2fe75bd482b006.png",
+    "static/media/4_2.png": "/shop-react-ts/static/media/4_2.ce27f3433b6ec8db9ce5.png",
+    "static/media/5_2.png": "/shop-react-ts/static/media/5_2.a1235f2f44d58e89616d.png",
+    "static/media/2_2.png": "/shop-react-ts/static/media/2_2.3be0c6e15855dae1a1ac.png",
+    "static/media/1_2.png": "/shop-react-ts/static/media/1_2.556811bfadb592973fa0.png",
+    "static/media/7_2.png": "/shop-react-ts/static/media/7_2.99f0baaa57ccc099e5fb.png",
+    "static/media/9_2.png": "/shop-react-ts/static/media/9_2.ec7098514a066ed69615.png",
+    "static/media/10_2.png": "/shop-react-ts/static/media/10_2.85d07bbed6478df6cacd.png",
+    "static/media/8_2.png": "/shop-react-ts/static/media/8_2.6c47e77cfcbf24605753.png",
+    "static/media/logo.svg": "/shop-react-ts/static/media/logo.7e4029872e265932842531a8d3b7927d.svg",
+    "static/media/logo-white.svg": "/shop-react-ts/static/media/logo-white.9609f9cfc66732a48b1e8a5d08354f64.svg",
+    "static/media/wa.svg": "/shop-react-ts/static/media/wa.e4d4af66868a4360aaabc104532db3b9.svg",
+    "static/media/cart.svg": "/shop-react-ts/static/media/cart.9c0aa74e28159b86665b0a7e6b05fd25.svg",
+    "static/media/email.svg": "/shop-react-ts/static/media/email.6dfcdf94dba579b04aff7cb3729dcf15.svg",
+    "static/media/locate.svg": "/shop-react-ts/static/media/locate.3ded67f7600a192c4bfbd87a16d4b15b.svg",
+    "static/media/catalog-btn.svg": "/shop-react-ts/static/media/catalog-btn.b6f03f0833e38dd92293eebda083d78b.svg",
+    "static/media/search-btn.svg": "/shop-react-ts/static/media/search-btn.52d3dd936f6348b49dc316e8efb07e3d.svg",
+    "index.html": "/shop-react-ts/index.html",
+    "static/media/dw-btn.svg": "/shop-react-ts/static/media/dw-btn.5bd80f7c253a74a2b166f552c32c8020.svg",
+    "main.17777ace.css.map": "/shop-react-ts/static/css/main.17777ace.css.map",
+    "main.281e9ad6.js.map": "/shop-react-ts/static/js/main.281e9ad6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17777ace.css",
+    "static/js/main.281e9ad6.js"
+  ]
+}
