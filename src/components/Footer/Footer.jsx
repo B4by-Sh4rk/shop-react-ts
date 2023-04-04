@@ -10,7 +10,7 @@ import MASTERCARD from "../../images/mastercard.png";
 const Footer = () => {
     return (
         <div className='footer'>
-                <div className='footer__column'>
+                <div className='footer__column first__column'>
                         <img src={LOGO} alt='СУЛТАН'></img>
                     <p>Компания «Султан» — снабжаем розничные магазины товарами 
                     "под ключ" в Кокчетаве и Акмолинской области</p>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
                 <div className='footer__column'>
                     <h2>Скачать прайс-лист:</h2>
-                    <button className='pricelist-btn'>Прайс-лист<img src={DWBTNSVG} alt="dwbtn" /></button>
+                    <button className='pricelist-btn'><p>Прайс-лист</p><img src={DWBTNSVG} alt="dwbtn" /></button>
                     <p>Связь в мессенджерах:</p>
                     <div className='footer__socials__container'>
                     <button className='footer__socials wa-btn'><img src={WA} alt="wa" /></button>

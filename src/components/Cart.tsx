@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useState} from 'react';
 import { productAPI } from '../services/ProductService';
 import CartProducts from './CartProducts';
 import { useNavigate } from 'react-router-dom';
@@ -16,6 +16,7 @@ const Cart:FC = (product) => {
     const {error, data: products, isLoading} = productAPI.useFetchCartQuery(0)
     const navigate = useNavigate();
     const [deleteProduct, {}] = productAPI.useDeleteProductfromCartMutation();
+    const [buttonCart, setButtonCart] = useState(false);
 
     const handleRemove = (product: IProduct) => {
         deleteProduct(product)
@@ -28,6 +29,19 @@ const Cart:FC = (product) => {
         )
     }
 
+    const CartClick = (e:any) => {
+        if(buttonCart === true){
+            setButtonCart(false);
+            return buttonCart
+        }else if (buttonCart === false){
+            products && products.map(product =>
+                handleRemove(product)
+            )
+            navigate('/order_complite');
+        }else return buttonCart;
+    }
+
+    console.log(buttonCart)
     return (
         <div className='container'>
             <Header/>
@@ -41,7 +55,7 @@ const Cart:FC = (product) => {
                     <CartProducts remove={handleRemove} CurOnClick={() => {}} TotalCount={1}  key={product.barcode} product={product}/>
                 )}
                     <div className='cart__bottom'>
-                        <YellowButton onClick={() => navigate('/order_complite')}>Оформить заказ</YellowButton>
+                        <YellowButton onClick={(e:any) => CartClick(e.target)}>Оформить заказ</YellowButton>
                         <h1>{totalPrice} ₸</h1>
                     </div>
                 </div>

@@ -12,6 +12,24 @@ export const productAPI = createApi({
             }),
             providesTags: result => ['Post']
         }),
+        fetchAllProductsWherePrice: build.query<IProduct[], number>({
+            query: (price: number = 1 ) => ({
+                url: `/products?price_gte=0&price_lte=${price}`,
+            }),
+            providesTags: result => ['Post']
+        }),
+        fetchAllProductsWhereManufacturer: build.query<IProduct[], string>({
+            query: (manufacturer: string = '' ) => ({
+                url: `/products?manufacturer_like=${manufacturer}`,
+            }),
+            providesTags: result => ['Post']
+        }),
+        fetchAllProductsWhereCareType: build.query<IProduct[], string>({
+            query: (careType: string = '' ) => ({
+                url: `/products?careType_like=${careType}`,
+            }),
+            providesTags: result => ['Post']
+        }),
         fetchSortDescPriceProducts: build.query<IProduct[], number>({
             query: () => ({
                 url: '/products?_sort=price&_order=desc',
@@ -45,6 +63,15 @@ export const productAPI = createApi({
         fetchAllProductsByPage: build.query<IProduct[], number>({
             query: (page: number = 1 ) => ({
                 url: '/products?_limit=8',
+                params:{
+                    _page: page,
+                }
+            }),
+            providesTags: result => ['Post']
+        }),
+        fetchAllProductsMainPage: build.query<IProduct[], number>({
+            query: (page: number = 1 ) => ({
+                url: '/products?_limit=6',
                 params:{
                     _page: page,
                 }

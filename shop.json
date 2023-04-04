@@ -277,16 +277,16 @@
   "cartProducts": [
     {
       "id": 1,
-      "url-img": "https://cs11.livemaster.ru/storage/topicavatar/600x450/eb/e8/c98dcc4aad43d125bd06ca4fc267d299bbdd6q.jpg?h=iLI0807eMxd2m9wGHOQNiA",
-      "name": "Крем для лица aloe",
+      "url-img": "https://main-cdn.sbermegamarket.ru/big2/hlr-system/134/298/117/432/818/19/100001554418b1.png",
+      "name": "средство для бритья Gillete",
       "type-size": "мл",
       "size": "100",
       "barcode": "0",
-      "manufacturer": "aloe-creams",
-      "brand": "aloe",
-      "description": "увлажняющий крем для лица с алое",
-      "price": 2000,
-      "careType": "уход за лицом, ход за руками"
+      "manufacturer": "ДжиЛЛеТТ",
+      "brand": "Gillette",
+      "description": "Лосьон для бритья чтобы было нормально после бритья, купите пж",
+      "price": 200,
+      "careType": "уход за лицом"
     }
   ]
 }

@@ -20,10 +20,10 @@ const CurrentProductCard: FC<currentProductProps> = ({product, CurOnClick}) => {
     }
 
     return (
-        <div className='product__card'>
+        <div className='product__card' onClick={() => CurOnClick(product)} >
                         <center><img src={product['url-img']} alt={product.name}/><br/></center>
             <div className='type-size-row'>{SizeType()}<p>{product.size}</p><p>{product['type-size']}</p></div>
-            <strong onClick={() => CurOnClick(product)} className='product__name'>{product.name}</strong>
+            <strong className='product__name'>{product.name}</strong>
             <div className='product__info'>
                 <p className='product__info__row'>Штрихкод: <strong>{product.barcode}</strong></p>
                 <p className='product__info__row'>Производитель: <strong>{product.manufacturer}</strong></p>

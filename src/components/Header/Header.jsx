@@ -51,13 +51,15 @@ const Header = () => {
                 </nav>
             </div>
             <div className='header__under'>
-                <div className='header__logo'>
+                <div className='header__logo' onClick={() => navigate('/')}>
                         <img src={LOGO} alt='СУЛТАН'></img>
                 </div>
-                <button className='catalog-btn'>Каталог<img src={CATALOGBTNSVG} alt="catalogBtn" /></button>
-                <div className='header__search'>
-                    <input placeholder='Поиск...'></input>
-                    <button><img src={SEARCHBTNSVG} alt="search-svg" /></button>
+                <div className='header__button__input'>
+                    <button className='catalog-btn' onClick={() => navigate('/catalog')}><p>Каталог</p><img src={CATALOGBTNSVG} alt="catalogBtn" /></button>
+                    <div className='header__search'>
+                        <input placeholder='Поиск...'></input>
+                        <button><img src={SEARCHBTNSVG} alt="search-svg" /></button>
+                    </div>
                 </div>
                 <div className='header__agent__container'>
                 <div className='header__agent'>
@@ -66,7 +68,7 @@ const Header = () => {
                 </div>
                 <img className='header__agent__img' src={AGENT} alt="agent-photo" />
                 </div>
-                <button className='pricelist-btn'>Прайс-лист<img src={DWBTNSVG} alt="dwbtn-svg" /></button>
+                <button className='pricelist-btn'><p>Прайс-лист</p><img src={DWBTNSVG} alt="dwbtn-svg" /></button>
                 <div className='header__cart' onClick={() => navigate('/cart')}>
                     <img src={CARTSVG} alt="cart-svg" />
                     <div className='header__cart__text'>
