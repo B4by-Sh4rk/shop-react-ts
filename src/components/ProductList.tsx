@@ -263,15 +263,15 @@ const ProductList: React.FC = () => {
                                     <button onClick={isPage}>
                                     <img src={String(arrowLeft)} alt="Left"/>
                                     </button>
-                                    {err? <h1>данные не найдены</h1> :
+                                    {err? <h1></h1> :
                                     isload? <h1></h1> :
                                     <p>{pageCounter()}</p>
                                     }
-                                    {err? <h1>данные не найдены</h1> :
+                                    {err? <h1></h1> :
                                     isload? <h1></h1> :
                                     currentPage()
                                     }
-                                    {err? <h1>данные не найдены</h1> :
+                                    {err? <h1></h1> :
                                     isload? <h1></h1> :
                                     <p>{pageCounterMore()}</p>
                                     }

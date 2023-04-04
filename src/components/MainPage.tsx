@@ -47,7 +47,9 @@ const MainPage:FC = () => {
                     <h1 className='yellow__title'>Акционные </h1><h1>товары</h1>
                 </div>
                 <div className='main__product__list'>
-                    {products && products.map(product =>
+                    {error? <h1>данные не найдены</h1> :
+                    isLoading? <h1>Загрузка...</h1> :
+                    products && products.map(product =>
                     <CurrentProductCard CurOnClick={(product) => navigate('/catalog/'+product.id)}  key={product.barcode} product={product}/>
                     )}
                 </div>
